@@ -83,7 +83,7 @@ func main() {
 
 		cutName := cleanString(s.Name)
 
-		fmt.Println(cutName)
+		fmt.Println("Downloaded: " + cutName)
 
 		out, err := os.Create(outputDir + "/" + cutName)
 		if err != nil {
